@@ -1,5 +1,5 @@
-# porkchop-plotter
-
+# Porkchop Plotter - MATLAB
+Author: Sourav Ghosh, Intelligent Space Systems Laboratory, The University of Tokyo.
 ## Dependencies
 <ol>
   <li> MICE Toolkit (Can be downloaded from https://naif.jpl.nasa.gov/naif/toolkit_MATLAB.html) </li>
