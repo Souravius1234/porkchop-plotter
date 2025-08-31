@@ -11,3 +11,6 @@
 
 ## How to Use
 Download all the dependencies and add them to the path. Then just edit and run the main.m file.
+
+## Example Figure
+<img width="1920" height="955" alt="image" src="https://github.com/user-attachments/assets/5feb5a9d-09ab-4cb2-add2-64f56c086c95" />
