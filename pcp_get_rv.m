@@ -1,4 +1,7 @@
 function [r, v] = pcp_get_rv(bodyName, et)
+% 
+% Author: Sourav Ghosh, Intelligent Space Systems Laboratory, The University of Tokyo.
+% 
 % Return heliocentric (centered at SUN) state in J2000 (km, km/s).
 name = upper(strtrim(bodyName));
 try

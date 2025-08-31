@@ -20,7 +20,16 @@ function [v1,v2,a,p,theta,iter] = lambertI(r1, r2, t, mu, lw, N, branch)
 %   theta  = transfer angle [rad]
 %   iter   = number of Newton iterations
 %
-% Reference: D. Izzo, ESA/ACT Lambert solver
+% Reference: Izzo, D. (2014). Revisiting Lambert’s problem. 
+% Celestial Mechanics and Dynamical Astronomy, 121(1), 1–15. 
+% https://doi.org/10.1007/s10569-014-9587-y
+% 
+%Programmed by: Claudio Bombardelli (ESA/ACT)
+%               Dario Izzo          (ESA/ACT)
+%Date:                  16/04/2007
+%Revision:              3
+%Tested by:             CBo, DI
+% 
 
 if nargin < 6, N = 0; end
 if nargin < 7, branch = 'l'; end

@@ -6,6 +6,9 @@ function G = porkchop_plotter(depName, arrName, t1_start, t1_end, t2_start, t2_e
 % G = porkchop_plotter('EARTH','MARS', ...
 %       '2026-08-01','2027-04-01', '2026-10-01','2028-01-01', ...
 %       'Ndep',141,'Narr',141,'LW','both','TOFminDays',50,'TOFmaxDays',500);
+% 
+% Author: Sourav Ghosh, Intelligent Space Systems Laboratory, The University of Tokyo.
+% 
 
 % ---------- Options ----------
 p = inputParser; p.FunctionName = mfilename;
