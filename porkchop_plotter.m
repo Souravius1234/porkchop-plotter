@@ -1,6 +1,6 @@
 function G = porkchop_plotter(depName, arrName, t1_start, t1_end, t2_start, t2_end, varargin)
 % PORKCHOP_PLOTTER  Porkchop with C3 colormap + TOF, vinf+ (dep), vinf- (arr) contours
-% Call your kernels() once before using this function.
+% Call your kernels once before using this function.
 %
 % Example:
 % G = porkchop_plotter('EARTH','MARS', ...
