@@ -7,7 +7,7 @@ kernels;  % your loader (naif0012.tls, gm_de440.tpc, pck00011.tpc, de440.bsp)
 
 % kernels;  % your loader (tls, tpc, pck, bsp already handled here)
 
-G = porkchop_plotter('EARTH','MARS', ...
-      '2005-04-30','2005-10-17', ... % Departure Dates range
-      '2005-11-16','2006-12-21', ... % Arrival Dates range
-      'Ndep',200,'Narr',200,'LW','both','TOFminDays',50,'TOFmaxDays',500);
+G = porkchop_plotter('EARTH','SATURN', ...
+      '1997-03-01','1997-12-01', ... % Departure Dates range
+      '2003-12-01','2006-08-01', ... % Arrival Dates range
+      'Ndep',200,'Narr',200,'LW','both','TOFminDays',50,'TOFmaxDays',3000);
